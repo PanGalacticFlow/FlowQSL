@@ -1,0 +1,5 @@
+#include "galactic_aes.h"
+int galactic_aes256_cbc_encrypt(uint8_t *out, size_t *outlen, const uint8_t *in, size_t inlen, const uint8_t key[32], const uint8_t iv[16]){(void)out;(void)outlen;(void)in;(void)inlen;(void)key;(void)iv;return -1;}
+int galactic_aes256_cbc_decrypt(uint8_t *out, size_t *outlen, const uint8_t *in, size_t inlen, const uint8_t key[32], const uint8_t iv[16]){(void)out;(void)outlen;(void)in;(void)inlen;(void)key;(void)iv;return -1;}
+int galactic_aes256_gcm_encrypt(uint8_t *out, size_t *outlen, uint8_t tag[16], const uint8_t *in, size_t inlen, const uint8_t *aad, size_t aadlen, const uint8_t key[32], const uint8_t iv[12]){(void)out;(void)outlen;(void)tag;(void)in;(void)inlen;(void)aad;(void)aadlen;(void)key;(void)iv;return -1;}
+int galactic_aes256_gcm_decrypt(uint8_t *out, size_t *outlen, const uint8_t *in, size_t inlen, const uint8_t *aad, size_t aadlen, const uint8_t key[32], const uint8_t iv[12], const uint8_t tag[16]){(void)out;(void)outlen;(void)in;(void)inlen;(void)aad;(void)aadlen;(void)key;(void)iv;(void)tag;return -1;}
